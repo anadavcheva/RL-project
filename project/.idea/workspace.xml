@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9511adf0-fb3a-4766-bc59-f6c57caf3e2a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pybox2d" />
+  </component>
+  <component name="ProjectId" id="20530oe8XHcYwx5v7zWHkWIkMpi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Humanoid" />
+      <recent name="$PROJECT_DIR$/HandReach" />
+      <recent name="$PROJECT_DIR$/Bipedal" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.BipedalWalker-ppo2">
+    <configuration name="BipedalWalker-ppo2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="$LD_LIBRARY_PATH:$USER_HOME$/.mujoco/mjpro150/bin" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bipedal/BipedalWalker-ppo2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HandReach" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HandReach/HandReach.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Humanoid-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="$LD_LIBRARY_PATH:$USER_HOME$/.mujoco/mjpro150/bin" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Humanoid" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Humanoid/Humanoid-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Humanoid-ddqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="$LD_LIBRARY_PATH:$USER_HOME$/.mujoco/mjpro150/bin" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Humanoid/Humanoid-ddqn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HumanoidEnv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Humanoid/HumanoidEnv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.BipedalWalker-ppo2" />
+      <item itemvalue="Python.Humanoid-ddqn" />
+      <item itemvalue="Python.HumanoidEnv" />
+      <item itemvalue="Python.HandReach" />
+      <item itemvalue="Python.Humanoid-2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.BipedalWalker-ppo2" />
+        <item itemvalue="Python.Humanoid-2" />
+        <item itemvalue="Python.HandReach" />
+        <item itemvalue="Python.HumanoidEnv" />
+        <item itemvalue="Python.Humanoid-ddqn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9511adf0-fb3a-4766-bc59-f6c57caf3e2a" name="Default Changelist" comment="" />
+      <created>1635320401575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635320401575</updated>
+      <workItem from="1635320404874" duration="4339000" />
+      <workItem from="1635326533381" duration="478000" />
+      <workItem from="1635327027960" duration="3190000" />
+      <workItem from="1635426168641" duration="3675000" />
+      <workItem from="1635493854040" duration="2930000" />
+      <workItem from="1635497151064" duration="5058000" />
+      <workItem from="1635520474309" duration="1661000" />
+      <workItem from="1635525896034" duration="9415000" />
+      <workItem from="1635599032188" duration="414000" />
+      <workItem from="1636386457989" duration="550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="477" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636387007664">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="477" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1636387007664" />
+    <state x="693" y="303" width="526" height="521" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1636386877016">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="693" y="303" width="526" height="521" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1636386877016" />
+    <state x="718" y="299" key="#xdebugger.evaluate" timestamp="1635500016793">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="718" y="299" key="#xdebugger.evaluate/0.28.1920.1052@0.28.1920.1052" timestamp="1635500016793" />
+    <state x="697" y="332" width="624" height="463" key="EnvironmentVariablesDialog" timestamp="1636387006511">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="697" y="332" width="624" height="463" key="EnvironmentVariablesDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1636387006511" />
+    <state width="1874" height="260" key="GridCell.Tab.0.bottom" timestamp="1636387186544">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="260" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1636387186544" />
+    <state width="1874" height="260" key="GridCell.Tab.0.center" timestamp="1636387186542">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="260" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1636387186542" />
+    <state width="1874" height="260" key="GridCell.Tab.0.left" timestamp="1636387186541">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="260" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1636387186541" />
+    <state width="1874" height="260" key="GridCell.Tab.0.right" timestamp="1636387186543">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="260" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1636387186543" />
+    <state width="1874" height="326" key="GridCell.Tab.1.bottom" timestamp="1635589629292">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="326" key="GridCell.Tab.1.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1635589629292" />
+    <state width="1874" height="326" key="GridCell.Tab.1.center" timestamp="1635589629291">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="326" key="GridCell.Tab.1.center/0.28.1920.1052@0.28.1920.1052" timestamp="1635589629291" />
+    <state width="1874" height="326" key="GridCell.Tab.1.left" timestamp="1635589629290">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="326" key="GridCell.Tab.1.left/0.28.1920.1052@0.28.1920.1052" timestamp="1635589629290" />
+    <state width="1874" height="326" key="GridCell.Tab.1.right" timestamp="1635589629292">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="326" key="GridCell.Tab.1.right/0.28.1920.1052@0.28.1920.1052" timestamp="1635589629292" />
+    <state x="449" y="189" width="1022" height="749" key="SettingsEditor" timestamp="1635426961596">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="449" y="189" width="1022" height="749" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1635426961596" />
+    <state x="616" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1635525897913">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="616" y="382" key="com.intellij.ide.util.TipDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1635525897913" />
+    <state x="685" y="468" width="542" height="191" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1635584775218">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="685" y="468" width="542" height="191" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1635584775218" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/tensor_shape.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project$Bipedal_test.coverage" NAME="Bipedal-test Coverage Results" MODIFIED="1636386601415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$HandReach.coverage" NAME="HandReach Coverage Results" MODIFIED="1636386887261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$run_mujoco.coverage" NAME="run_mujoco Coverage Results" MODIFIED="1635520769946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stable_baselines/ppo2" />
+    <SUITE FILE_PATH="coverage/project$lab.coverage" NAME="lab Coverage Results" MODIFIED="1635495102501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$temp2.coverage" NAME="temp2 Coverage Results" MODIFIED="1636386826228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$main.coverage" NAME="main Coverage Results" MODIFIED="1635521841229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stable_baselines/ddpg" />
+    <SUITE FILE_PATH="coverage/project$Bipedal.coverage" NAME="Bipedal Coverage Results" MODIFIED="1636386562623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$Humanoid.coverage" NAME="BipedalWalker-ppo2 Coverage Results" MODIFIED="1636387114398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$temp.coverage" NAME="temp Coverage Results" MODIFIED="1635526611685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$temp3.coverage" NAME="temp3 Coverage Results" MODIFIED="1636386653519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$Humanoid_test.coverage" NAME="Humanoid-test Coverage Results" MODIFIED="1636386790698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$Humanoid_2.coverage" NAME="Humanoid-2 Coverage Results" MODIFIED="1636387009451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Humanoid" />
+  </component>
+</project>
