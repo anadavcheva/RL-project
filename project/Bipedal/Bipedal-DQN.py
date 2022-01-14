@@ -1,9 +1,6 @@
-from tensorflow import keras
 from tensorflow.keras.models import load_model
-from tensorflow.keras import backend as K
-from tensorflow.keras.models import Sequential, Model
-from tensorflow.keras.layers import Dense, Dropout, Input, Activation
-from tensorflow.keras.losses import sparse_categorical_crossentropy
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
 import time
@@ -11,7 +8,6 @@ import numpy as np
 import gym
 import random
 from collections import deque
-import tensorflow as tf
 import os
 
 
@@ -82,13 +78,10 @@ class AGENT:
                 target = ((1.0 - 0.1) * reward + 0.1 * (self.gamma * np.amax(self.model.predict(obs_new)[0])))
 
             target_old = self.model.predict(observation)
-            # target_old[0][act] = target
             target_old[0] = target
             # Train
-            # K.set_session(K.tf.Session(config=K.tf.ConfigProto(intra_op_‌​parallelism_threads=‌​32, inter_op_parallelism_threads=32)))
-            history = self.model.fit(x=observation, y=target_old, \
-                                     # batch_size=1,\
-                                     verbose=0, \
+            history = self.model.fit(x=observation, y=target_old,
+                                     verbose=0,
                                      epochs=1)
             self.los.append(history.history['loss'])
 
@@ -111,7 +104,7 @@ if __name__ == '__main__':
     RENDER_REWARD_MIN = 5000
     RENDER_ENV = False
     if rendering == 'y': RENDER_ENV = True  # flag for rendering the environment
-    EPISODES = 9000  # Number of episodes
+    EPISODES = 100  # Number of episodes
 
     env = gym.make('BipedalWalker-v3')
     env = env.unwrapped
@@ -187,7 +180,7 @@ if __name__ == '__main__':
                 if i % 100 == 0:
                     print("Mean reward of the past 100 episodes: ", str(np.mean(rewards_over_time[-100:])))
                     mean_100.append(np.mean(rewards_over_time[-100:]))
-                    f = open('../results.txt', 'a')
+                    f = open('results.txt', 'a')
                     f.write('\n' + str(np.mean(rewards_over_time[-100:])))
                     f.close()
 

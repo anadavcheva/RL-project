@@ -8,7 +8,7 @@ from stable_baselines.common.policies import MlpPolicy
 from stable_baselines import PPO2
 
 if __name__ == '__main__':
-    env = gym.make('Humanoid-v2')
+    env = gym.make('BipedalWalker-v3')
     # env = HumanoidEnv()
     env = DummyVecEnv([lambda: env])  # The algorithms require a vectorized environment to run
     env = VecNormalize(env)

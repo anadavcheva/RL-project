@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import Sequential
-from Humanoid.deep_q_learning import DDQN
+from Bipedal.deep_q_learning import DDQN
 from Humanoid.HumanoidEnv import HumanoidEnv
 
 

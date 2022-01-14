@@ -9,6 +9,9 @@ import gym
 from gym import spaces
 from gym.utils import colorize, seeding, EzPickle
 
+import matplotlib.pyplot as plt
+
+
 # This is simple 4-joints walker robot environment.
 #
 # There are two versions:
